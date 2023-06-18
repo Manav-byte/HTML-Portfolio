@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben 10 strike</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            
+            max-width: 500px;
+            font-family: 'sono', sans-serrif;
+            
+            align-items: center;
+            background-image: linear-gradient(to bottom right, rgb(162, 221, 227), rgb(44, 42, 42));
+            border-radius: 10%;
+            padding: 25px;
+        }
+        .img>img{
+            border-radius: 5%;
+        }
+        .name{
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        .top{
+            display: flex;
+            gap: 50px;
+        }
+        .serial{
+            font-size: 1.6rem;
+            font-weight: bolder;
+            font-style: italic;
+            position: relative;
+            background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+            /* Mask the color to the text, and remove the rest  */
+            -webkit-background-clip: text;
+            /* Make the text fill color value transparent so the masked background color comes through */
+            -webkit-text-fill-color: transparent;
+            top: -40px;
+        }
+        .stats{
+            color: white;
+            margin-top:5px ;
+            margin-bottom: 10px;
+            font-size: larger;
+            text-align: center;
+            
+        }
+        .values{
+            color: red;
+            margin-left: 60px;
+        }
+        .attack>.values{
+            margin-left: 72px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card one">
+            <div class="top">
+                <p class="serial">76</p>
+                <p class="name">ALIEN-X</p>
+            </div>
+            <div class="img"><img src="https://th.bing.com/th/id/OIP.UIP7tKFGviMm14OY_LbO3AHaEK?w=194&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
+            <div class="stats">
+            <p class="attack"> Attack    <span class="values">    97</span> </p>
+            <p class="defense">Defense  <span class="values">    94</span></p>
+            <p class="utility">Utility  <span class="values">99</span></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
